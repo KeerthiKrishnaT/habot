@@ -21,6 +21,7 @@ const HeroSection: React.FC<HeroSectionProps> = () => {
                     </div>
                     <button type="submit" className=" bg-green-600 text-white rounded-none w-full px-5 py-2.5 text-center me-2 mb-2 md:w-auto">Search</button>
                 </form>
+                <p className="text-sm py-4 text-white mb-8 font-bold">Are you a buyer? <a className="font-normal hover:underline">Click here if you are looking to post a requirements</a></p>
             </div>
         </section>
     );

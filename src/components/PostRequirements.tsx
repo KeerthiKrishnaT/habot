@@ -37,17 +37,17 @@ const PostRequirements: React.FC<PostRequirementsProps> = () => {
                     <div className="flex justify-center md:justify-start mb-4 space-x-4">
                         <button
                             onClick={() => handleTabClick('buyer')}
-                            className={`font-bold ${
-                                activeTab === 'buyer' ? 'text-red-600' : 'text-white'
-                            }`}
+                            className={`font-bold border-[#EB7150] py-4 ${
+                                activeTab === 'buyer' ? 'text-[#EB7150]' : 'text-white'
+                            } ${activeTab=== 'buyer' ? 'border-b-2' : 'border-b-0'}`}
                         >
                             Buyer
                         </button>
                         <button
                             onClick={() => handleTabClick('supplier')}
-                            className={`font-bold ${
-                                activeTab === 'supplier' ? 'text-red-600' : 'text-white'
-                            }`}
+                            className={`font-bold border-[#EB7150] py-4 ${
+                                activeTab === 'supplier' ? 'text-[#EB7150]' : 'text-white'
+                            } ${activeTab=== 'supplier' ? 'border-b-2' : 'border-b-0'}`}
                         >
                             Supplier
                         </button>
@@ -55,15 +55,15 @@ const PostRequirements: React.FC<PostRequirementsProps> = () => {
                     {activeTab === 'buyer' && (
                         <ul className="space-y-2">
                             <li className="flex items-center">
-                                <span className="text-green-400 mr-2">✔️</span> Post your
+                                <span className="text-green-400 mr-2"><i className="fa-solid fa-circle-check"></i></span> Post your
                                 requirements.
                             </li>
                             <li className="flex items-center">
-                                <span className="text-green-400 mr-2">✔️</span> Sit back for
+                                <span className="text-green-400 mr-2"><i className="fa-solid fa-circle-check"></i></span> Sit back for
                                 multiple suppliers to contact you.
                             </li>
                             <li className="flex items-center">
-                                <span className="text-green-400 mr-2">✔️</span> 
+                                <span className="text-green-400 mr-2"><i className="fa-solid fa-circle-check"></i></span> 
                              Choose among the suppliers based on the ratings and reviews.
                             </li>
                         </ul>
@@ -71,15 +71,15 @@ const PostRequirements: React.FC<PostRequirementsProps> = () => {
                     {activeTab === 'supplier' && (
                         <ul className="space-y-2">
                             <li className="flex items-center">
-                                <span className="text-green-400 mr-2">✔️</span> Complete your
+                                <span className="text-green-400 mr-2"><i className="fa-solid fa-circle-check"></i></span> Complete your
                                 profile and get notified for opportunities.
                             </li>
                             <li className="flex items-center">
-                                <span className="text-green-400 mr-2">✔️</span> Contact buyers
+                                <span className="text-green-400 mr-2"><i className="fa-solid fa-circle-check"></i></span> Contact buyers
                                 and share your quote for the service.
                             </li>
                             <li className="flex items-center">
-                                <span className="text-green-400 mr-2">✔️</span> Connect and
+                                <span className="text-green-400 mr-2"><i className="fa-solid fa-circle-check"></i></span> Connect and
                                 leave feedback for each other.
                             </li>
                         </ul>

@@ -71,7 +71,7 @@ const Footer: React.FC<FooterProps> = () => {
           </div>
 
           {/* Social Icons Section */}
-          <div className="w-full md:w-1/2 lg:w-auto flex gap-4 mt-4 lg:mt-0">
+          <div className="w-full md:w-1/2 lg:w-auto flex gap-4 mt-4 lg:mt-0 self-center">
             <a href="#" className="hover:text-gray-400 ">
               <i className="fab fa-linkedin p-3 rounded-full border-y-2 border-gray-600"></i>
             </a>
