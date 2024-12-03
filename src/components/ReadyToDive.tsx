@@ -22,7 +22,7 @@ const ReadyToDive: React.FC<ReadyToDiveProps> = () => {
                         Gain access to a vibrant community of like-minded individuals, unlock valuable resources, and take the first
                         step towards realizing your entrepreneurial dreams.
                     </p>
-                    <button className="px-6 py-3 bg-green-600 text-white rounded hover:bg-green-700 transition duration-200">Sign up Today!</button>
+                    <button className="px-6 py-3 bg-green-600 text-white rounded hover:bg-green-700 transition duration-200"><span className='flex gap-8'>Sign up Today!<img src="./images/Vector.png" width="30" alt="Vector" className=" mr-2" /></span></button>
                 </div>
                 <div className="md:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-4">
                     {locations.map((location, index) => (

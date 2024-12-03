@@ -5,6 +5,7 @@ import HowItWorks from './components/HowItWorks';
 import Footer from './components/Footer';
 import ReadyToDive from "./components/ReadyToDive";
 import PostRequirements from "./components/PostRequirements";
+import Section from './components/Section';
 
 type AppProps = {};
 
@@ -15,8 +16,10 @@ const App: React.FC<AppProps> = () => {
           <HeroSection />
           <ReadyToDive />
           <PostRequirements />
+          <Section/>
           <HowItWorks />
           <Footer />
+          
       </div>
   );
 };

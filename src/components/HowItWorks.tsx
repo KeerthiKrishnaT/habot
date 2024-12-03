@@ -20,7 +20,7 @@ const HowItWorks: React.FC<HowItWorksProps> = () => {
 
 
     return (
-        <section className="py-16 bg-gray-100">
+        <section className="py-16 ">
             <div className="container mx-auto px-10 md:px-28">
                 <h2 className="text-3xl font-semibold text-center mb-8">How it works?</h2>
                 <p className="text-center mb-12 max-w-2xl mx-auto">
@@ -31,7 +31,7 @@ const HowItWorks: React.FC<HowItWorksProps> = () => {
                     {steps.map((step, index) => (
                         <div
                             key={step.id}
-                            className={`flex flex-col items-center text-center p-6 ${index % 2 === 0 ? 'bg-white' : 'bg-gray-200'}`}
+                            className={`flex flex-col items-center text-center p-6 ${index % 2 === 0 ? 'bg-[#E8FBFF]' : 'bg-white'}`}
                         >
                             <div className="text-4xl mb-4">{step.icon}</div> {/* Icon */}
                             <div className="text-xl font-bold mb-2">Step {step.id}</div>

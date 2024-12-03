@@ -20,13 +20,12 @@ const PostRequirements: React.FC<PostRequirementsProps> = () => {
             <div className=" py-16 px-20 bg-blue-900  mx-2.5 md:flex justify-between gap-10">
                 <div className="md:w-2/3 mb-8 md:mb-0 ">
                     <div className="relative">
-                            <iframe
+                          <iframe
                                 width="100%"
                                 height="315"
                                 src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
                                 title="YouTube video player"
                                 frameBorder="0"
-                                
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen
                                 className="rounded shadow-lg"
