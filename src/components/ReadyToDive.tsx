@@ -16,7 +16,7 @@ const ReadyToDive: React.FC<ReadyToDiveProps> = () => {
         <section className="py-16 bg-white">
             <div className="container mx-auto px-4 md:flex items-center justify-between gap-x-56">
                 <div className="md:w-1/2 mb-8 md:mb-0">
-                    <h2 className="text-3xl font-bold mb-4">Ready to dive intoHABOT?</h2>
+                    <h2 className="text-3xl font-bold mb-4">Ready to dive into HABOT?</h2>
                     <p className="text-gray-700 mb-6">
                         Signing up with HABOT opens the door to a world of new opportunities and potential for business growth.
                         Gain access to a vibrant community of like-minded individuals, unlock valuable resources, and take the first
